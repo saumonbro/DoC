@@ -1,0 +1,13 @@
+
+type a = string[][][]
+
+
+fn main(i : i32, string[] argv) : i32 with
+{
+	if (i = 0) then
+	{
+		
+	}
+}
+
+fn aux(i : string) : string with(a > 1) =>  i

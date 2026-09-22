@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <LangVersion>10.0</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="FsPretty.fs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Absyn\Absyn.csproj"/>
+    </ItemGroup>
+
+</Project>

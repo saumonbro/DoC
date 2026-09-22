@@ -1,0 +1,23 @@
+type a := string[][]
+
+                           fun main(i : i32, argv : a) : { I : i32, b : string } with NotZero
+                           {
+                             let a := 5 + 3 * 2 + (1 + 2 ? 3 : 4);
+                             a[5];
+                           	 if (i = 0)
+                           	 {
+                           		a := 67 + 2 * a.b[5].c;
+                           	 	return 67;
+                           }
+                           	 else
+                           	 {
+                           			if (i = 1)
+                           			{
+                           			};
+                           			
+         print("67 !");
+                           	 };
+                           	return 85;
+                           }
+
+                           fun aux(i : string) : string with notEmpty =>  i

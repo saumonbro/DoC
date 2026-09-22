@@ -1,0 +1,7 @@
+<Solution>
+    <Project Path="Absyn\Absyn.csproj" />
+    <Project Path="DoC.FsPretty/DoC.FsPretty.fsproj" />
+    <Project Path="DoC/DoC.csproj" />
+    <Project Path="DocTests/DocTests.csproj" />
+    <Project Path="Lib/Lib.csproj" />
+</Solution>
